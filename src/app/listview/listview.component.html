@@ -1,0 +1,42 @@
+<div class="background">
+    <div style="height: 10%;"></div>
+    <div style="margin-left: 5%; margin-right: 5%;">
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Climbing Track 18.01.2021
+                </mat-panel-title>
+                <mat-panel-description>
+                    Traverse climbing
+                </mat-panel-description>
+                </mat-expansion-panel-header>
+                <button mat-flat-button color="accent" (click)="showdetails('traverse.csv')">View Progression</button>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Climbing Track 23.01.2021
+                </mat-panel-title>
+                <mat-panel-description>
+                    Vertical climbing
+                </mat-panel-description>
+                </mat-expansion-panel-header>
+                <button mat-flat-button color="accent" (click)="showdetails('vertical.csv')">View Progression</button>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Climbing Track 15.02.2021
+                </mat-panel-title>
+                <mat-panel-description>
+                    Overhang climbing
+                </mat-panel-description>
+                </mat-expansion-panel-header>
+                <button mat-flat-button color="accent" (click)="showdetails('overhang.csv')">View Progression</button>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>

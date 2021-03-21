@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.background {
+    background-image: url('./assets/climb.png');
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 20; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(1,1,1); /* Black fallback color */
+    background-color: rgba(1,1,1, 0.0); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
+
+  canvas {
+    width: 80%;
+    height: 80%;
+    left: 0;
+    top: 5%;
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
